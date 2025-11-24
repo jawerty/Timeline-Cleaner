@@ -1,12 +1,17 @@
 # X Timeline Cleaner
 
 <div style="text-align: center; width: 100%;">
-<img src="https://github.com/user-attachments/assets/c029148f-c0a9-40dc-a433-310dfaeb37e5" alt="crying guy" style="margin: 0 auto;"  width="200"/>
+
 </div>
 
-Timeline Cleaner is a Chrome extension for directly labeling users in your X (formerly known as Twitter) timeline by their location and, if you'd like, blocking them. I built this after the feature was released because, well, it had to be done.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c029148f-c0a9-40dc-a433-310dfaeb37e5" alt="crying guy" style="margin: 0 auto;"  width="150"/>
+</p>
 
+Timeline Cleaner is a Chrome extension for directly labeling users in your X (formerly known as Twitter) timeline by their location and, if you'd like, blocking them. I built this after the feature was released because, well, it had to be done.
+<p align="center">
 <img width="500"  alt="Screenshot 2025-11-24 at 5 20 33 PM" src="https://github.com/user-attachments/assets/09af0ab0-f321-4831-b3d4-99a52559a762" />
+</p>
 
 
 
