@@ -495,7 +495,7 @@
         // Create notification content
         const content = document.createElement('div');
         content.innerHTML = `
-            <div style="font-size: 16px; margin-bottom: 8px;">GEO BLOCK RATE LIMITED</div>
+            <div style="font-size: 16px; margin-bottom: 8px;">TIMELINE CLEANER RATE LIMITED</div>
             <div style="font-size: 13px; font-weight: 400; opacity: 0.95;">
                 Tracking disabled. Resets in ${minutesUntilReset} minute${minutesUntilReset !== 1 ? 's' : ''}<br>
                 Reset time: ${resetTimeString}
