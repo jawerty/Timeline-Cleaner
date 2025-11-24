@@ -15,6 +15,7 @@ For now I'm just releasing X Timeline Cleaner on this github. You can unpack thi
 <p align="center">
   <img src="https://github.com/user-attachments/assets/c029148f-c0a9-40dc-a433-310dfaeb37e5" alt="crying guy" style="margin: 0 auto;"  width="150"/>
 </p>
+
 - Tags every tweet with a color-coded badge that shows the account's declared country/region (via the About Account GraphQL endpoint).
 - Maintains a local cache of account → country lookups (with automatic cleanup) to minimize X API calls.
 - Lets you keep tracking and blocking toggles independent—track without blocking or vice versa.
