@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Timeline Cleaner",
+    "name": "X Timeline Cleaner",
     "version": "1.0",
     "permissions": ["storage", "alarms"],
     "action": {
