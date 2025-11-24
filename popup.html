@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timeline Cleaner</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="popup">
+      <header class="popup__header">
+        <h1>Timeline Cleaner</h1>
+        <label class="toggle">
+          <input type="checkbox" id="tracking-toggle" />
+          <span class="toggle__slider" aria-hidden="true"></span>
+          <span class="toggle__label">Enable location tracking</span>
+        </label>
+        <label class="toggle">
+          <input type="checkbox" id="blocking-toggle" />
+          <span class="toggle__slider" aria-hidden="true"></span>
+          <span class="toggle__label">Enable geoblocking</span>
+        </label>
+      </header>
+      <section class="blocklist">
+        <div class="blocklist__label-row">
+          <label for="location-input">Blocked locations</label>
+          <span class="blocklist__hint">Matches account country (case-insensitive).</span>
+        </div>
+        <form id="block-form" class="blocklist__form">
+          <input
+            type="text"
+            id="location-input"
+            placeholder="Add country or region"
+            autocomplete="off"
+          />
+          <button type="submit">Add</button>
+        </form>
+        <div id="blocked-list" class="chips"></div>
+      </section>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

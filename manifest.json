@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Timeline Cleaner",
+    "version": "1.0",
+    "permissions": ["storage", "alarms"],
+    "action": {
+      "default_title": "Timeline Cleaner",
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "run_at": "document_start"
+      }
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": ["inject.js", "inject_2.js"],
+        "matches": ["<all_urls>"]
+      }
+    ]
+  }
+  

@@ -1,0 +1,160 @@
+:root {
+  color-scheme: dark;
+  font-family: "Inter", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont,
+    sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #0c0d10;
+  color: #f5f7fa;
+  min-width: 320px;
+}
+
+.popup {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.popup__header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.popup__header h1 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.toggle input {
+  display: none;
+}
+
+.toggle__slider {
+  width: 44px;
+  height: 22px;
+  background: #4c566a;
+  border-radius: 999px;
+  position: relative;
+  transition: background 0.2s ease;
+}
+
+.toggle__slider::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 16px;
+  height: 16px;
+  background: #0c0d10;
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+}
+
+.toggle input:checked + .toggle__slider {
+  background: #2ecc71;
+}
+
+.toggle input:checked + .toggle__slider::after {
+  transform: translateX(22px);
+}
+
+.toggle__label {
+  font-size: 14px;
+}
+
+.blocklist {
+  border-top: 1px solid #1f2128;
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.blocklist__label-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.blocklist__label-row label {
+  font-weight: 600;
+}
+
+.blocklist__hint {
+  font-size: 12px;
+  color: #a0a7b5;
+}
+
+.blocklist__form {
+  display: flex;
+  gap: 8px;
+}
+
+.blocklist__form input {
+  flex: 1;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #2a2d36;
+  background: #12131a;
+  color: #f5f7fa;
+}
+
+.blocklist__form button {
+  border: none;
+  background: #4f46e5;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.blocklist__form button:hover {
+  background: #4338ca;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  min-height: 34px;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  background: #1b1d25;
+  border-radius: 16px;
+  font-size: 13px;
+  gap: 6px;
+  border: 1px solid #2f3240;
+}
+
+.chip button {
+  background: transparent;
+  border: none;
+  color: #f87171;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+}
+
+.chips__empty {
+  font-size: 13px;
+  color: #7d849b;
+}
