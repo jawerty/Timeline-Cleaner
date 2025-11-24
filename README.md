@@ -7,7 +7,9 @@ Timeline Cleaner is a Chrome extension for directly labeling users in your X (fo
 </p>
 
 
+## Download / Install
 
+For now I'm just releasing X Timeline Cleaner on this github. You can unpack this folder directly in the chrome://extensions tab or [download the crx](https://github.com/jawerty/X-Timeline-Cleaner/raw/refs/heads/main/dist/timeline-cleaner-v1.0.crx) and drag into the extensions tab. For any security concerns all of the code is here for you to review under the MIT license.
 
 ## Features
 <p align="center">
@@ -21,12 +23,12 @@ Timeline Cleaner is a Chrome extension for directly labeling users in your X (fo
 - Handles X rate limits: when the About Account endpoint returns `429`, the extension pauses tracking, displays a countdown toast, and automatically re-enables tracking once the reset window expires.
 
 ## Install & Load
-1. Clone or download this repository.
-2. Open Chrome (or any Chromium-based browser that supports Manifest V3 extensions).
-3. Navigate to `chrome://extensions`.
-4. Toggle **Developer mode** on (top-right).
-5. Click **Load unpacked** and select this project folder (`geoblock`).
-6. The "Timeline Cleaner" icon now appears in your toolbar; pin it for quick access.
+1. Grab the extension files by cloning or downloading this repository.
+2. Fire up Chrome (or any Chromium browser that supports Manifest V3 extensions).
+3. In the address bar, type `chrome://extensions` and press Enter.
+4. Flip the **Developer mode** switch in the top-right corner so Chrome lets you sideload code.
+5. Hit **Load unpacked**, browse to this project folder (`geoblock`), and confirm.
+6. You should now see the Timeline Cleaner icon in your toolbar—click the pin so it’s always handy.
 
 ## Configure the Extension
 Open the popup (`Timeline Cleaner` → click the browser action) to adjust settings.
