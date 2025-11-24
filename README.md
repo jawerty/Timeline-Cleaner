@@ -1,4 +1,4 @@
-# Timeline Cleaner
+# X Timeline Cleaner
 
 Timeline Cleaner is a Chrome extension for directly labeling users in your X (formerly known as Twitter) timeline by their location and, if you'd like, blocking them. I built this after the feature was released because, well, it had to be done.
 
