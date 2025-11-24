@@ -6,12 +6,13 @@ Timeline Cleaner is a Chrome extension for directly labeling users in your X (fo
 <img width="500"  alt="Screenshot 2025-11-24 at 5 20 33 PM" src="https://github.com/user-attachments/assets/09af0ab0-f321-4831-b3d4-99a52559a762" />
 </p>
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/c029148f-c0a9-40dc-a433-310dfaeb37e5" alt="crying guy" style="margin: 0 auto;"  width="150"/>
-</p>
+
 
 
 ## Features
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c029148f-c0a9-40dc-a433-310dfaeb37e5" alt="crying guy" style="margin: 0 auto;"  width="150"/>
+</p>
 - Tags every tweet with a color-coded badge that shows the account's declared country/region (via the About Account GraphQL endpoint).
 - Maintains a local cache of account → country lookups (with automatic cleanup) to minimize X API calls.
 - Lets you keep tracking and blocking toggles independent—track without blocking or vice versa.
