@@ -9,7 +9,7 @@ Timeline Cleaner is a Chrome extension for directly labeling users in your X (fo
 
 ## Download / Install
 
-For now I'm just releasing X Timeline Cleaner on this github. You can unpack this folder directly in the chrome://extensions tab or [download the crx](https://github.com/jawerty/X-Timeline-Cleaner/raw/refs/heads/main/dist/timeline-cleaner-v1.0.crx) and drag into the extensions tab. For any security concerns all of the code is here for you to review under the MIT license.
+For now I'm just releasing X Timeline Cleaner on this github. You can unpack this folder directly in the chrome://extensions tab or [download the crx](https://github.com/jawerty/X-Timeline-Cleaner/raw/refs/heads/main/dist/timeline-cleaner-v1.0.crx) and drag onto that same extensions tab. For any security concerns all of the code is here for you to review under the MIT license.
 
 ## Features
 <p align="center">
